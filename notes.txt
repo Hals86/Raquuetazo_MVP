@@ -1,0 +1,4 @@
+# SUPABASE
+1.-set env variables for local development
+
+2.- Project Settings>API[ProjectURL, Anon key, service role key]

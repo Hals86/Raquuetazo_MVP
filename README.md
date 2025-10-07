@@ -34,3 +34,21 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ ## Story Book
+  visualizar componentes de forma aislada, controlando cada aspecto de su estado y comportamiento.
+   * Next.js v11 
+   npx sb init --builder webpack5
+  + EJECUTAR
+ yarn storybook
+ + CREAR COMPONENTE PARA STORY
+ // components/TuComponente.stories.jsx
+import TuComponente from './TuComponente';
+
+export default {
+  title: 'Componentes/TuComponente',
+  component: TuComponente,
+};
+
+export const PorDefecto = () => <TuComponente nombre="Mundo" />;
+
+export const ConEstadoDiferente = () => <TuComponente nombre="Usuario" />;

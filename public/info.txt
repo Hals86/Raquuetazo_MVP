@@ -1,0 +1,7 @@
+1. Carpeta public/
+
+Propósito: Contiene archivos estáticos como imágenes, 
+fuentes y otros recursos accesibles públicamente.
+
+organizar los archivos dentro de esta carpeta en subcarpetas como 
+images/, fonts/, etc., para mantener una estructura ordenada.
